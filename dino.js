@@ -28,7 +28,7 @@ setInterval(() => {
   }
 
   if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
-    alert("Your Score: " + score.innerText +
+    lert("Your Score: " + score.innerText +
       "\n\nPlay again?");
     location.reload();
   }
