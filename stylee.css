@@ -1,0 +1,105 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+
+.homesection{
+
+	background-color: #d6caca;
+}
+
+
+.image2 {
+
+padding-left: 500px;
+
+}
+
+.image1{
+
+margin-top: 1%;
+margin-bottom: 0px;
+
+}
+
+.About-Us {
+
+	background-color: #000000;
+}
+
+.aboutus {
+
+	color: white;
+	
+
+}
+
+.AboutUs {
+
+	background-color: black;
+}
+
+.AboutUsText {
+
+	color: #fff;
+	padding-left: 700px;
+	font-family: monospace;
+   
+}
+
+.pas-slika {
+
+	padding-left: 450px;
+	margin-top: 6%;
+}
+
+.ContactText {
+
+	font-family: fantasy;
+	color: #78b9a8;
+	padding-left: 380px;
+}
+
+.brojcontact {
+
+	font-family: sans-serif;
+	border: 3px solid #78b9a8;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.text-section {
+
+	background-color: #5c5c60;
+}
+
+.passlogo {
+
+	margin-top: 8%;
+}
+
+.marquetext {
+
+	font-family: sans-serif;
+	color:white;
+
+}
+
+.imetext {
+	color: white;
+	font-family: monospace;
+	margin-bottom: 2%;
+	height: 50px;	
+    overflow: hidden;
+ 	position: relative;
+}
+
+.marquetext2 {
+
+	color: white;
+	font-family: monospace;
+}
