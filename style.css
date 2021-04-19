@@ -1,361 +1,106 @@
-body, html {
-  height: 100%;
-  background-color: #E8E8E8;
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    
 }
 
-.text1 {
-
-	padding-left: 150px;
-	padding-top: 150px;
-	font-family:fantasy ; 
-	padding-top: 150px;
-	position: absolute;
-	color:#fff;
-
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: black;
+    
 }
 
-.navbar {
+#logo a {
+
 
 display: inline-block;
-clear: both;
-overflow: hidden;
-padding-left: 50px;
+}
 
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    
+}
+
+header,
+header:before {
+    background: 50% 50% / cover;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(mercedesbenz.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+    filter: brightness(50%);
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    
+}
+
+.logo {
+
+  height: 130px;
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 30px;
+  left: 0;
+  right: 0;
+  position: absolute;
 
 }
 
-.home-section{
-
-	background-image: url("header-home01-header.jpg");
-	background-attachment: fixed;
-	height: 100%;
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.navbar {
-
-	color:#fff;
-	font-family: sans-serif ;
-}
-
-.button span{
-
-background-color: #6600ff;
-padding-left: 20px;
-padding-right: 80px;
-padding-bottom: 20px;
-padding-top: 15px;	
-
-
-}
-
-.button {
-
-	padding-top: 400px;
-    padding-left: 160px;
-    font-family: sans-serif;
-    color: #fff;
-    clip-path: polygon(0 0, 100% 0, 100% 79%, 81% 100%, 0 100%, 0 49%);
-    display: inline-block;	
-}
-
-.navbar1 {
-
-	background-image: url("LOGO-MENU-DESKTOP2.png");
-	padding-top: 50px;
-	background-repeat: no-repeat;
-	font-family: sans-serif;
-}
-
-.service-section {
-
-	font-family: sans-serif;
-	padding-top:180px;
-	color: #2B2A2A;
-}
-
-.service-paragraph {
-
-	color:#2B2A2A;
-	font-family: sans-serif;
-}
-
-.image1 {
-
-	padding-top: 150px;
-	padding-left: 380px;
-
-}
-
-.image2 {
-
-
-}
-
-.image3 {
-
-	margin-right: 5%;
-}
-
-#button1 {display:inline-block;margin-right:10px;} 
-#button2 {display:inline-block;} 
-
-.button1 {
-
-	padding-left: 95px;
-	font-family: sans-serif;
-	background-color: #C859FF;
-	clip-path: polygon(51% 0, 100% 0, 100% 96%, 95% 100%, 0 100%, 0% 60%, 0 0);
-}
-
-.button2 {
-
-	font-family: sans-serif;
-	background-color: #6600ff;
-padding-left: 105px;
-padding-right: 80px;
-padding-bottom: 20px;
-padding-top: 15px;	
-clip-path: polygon(51% 0, 100% 0, 100% 96%, 95% 100%, 0 100%, 0% 60%, 0 0);
-border: 5px solid white;
-color: #fff;
-
-
-}
-
-.button3 {
-
-	padding-right: 95px;
-	background-color: #6600ff;
-padding-left: 105px;
-padding-right: 80px;
-padding-bottom: 20px;
-padding-top: 15px;	
-clip-path: polygon(51% 0, 100% 0, 100% 96%, 95% 100%, 0 100%, 0% 60%, 0 0);
-border: 5px solid white;
-color: #fff;
-font-family: sans-serif;
-
-}
-
-.button1 {
-
-	background-color: #6600ff;
-padding-left: 105px;
-padding-right: 80px;
-padding-bottom: 20px;
-padding-top: 15px;	
-clip-path: polygon(51% 0, 100% 0, 100% 96%, 95% 100%, 0 100%, 0% 60%, 0 0);
-border: 5px solid white;
-color: #fff;
-
-}
-
-
-.howitworks {
-
-	padding-top: 300px;
-	font-family: Arial, Helvetica, sans-serif;
-	padding-top: 200px;
-	color: white;
-}
-
-.work-paragraph {
-
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-}
-
-.work-section {
-
-	background-image: url("home-01-bg-video2.jpg");
-	background-attachment: fixed;
-	height: 100%;
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.videowork {
-
-	padding-top: 120px;
-}
-
-.customersay {
-
-	color: #2B2A2A;
-	font-family: sans-serif;
-	padding-top: 150px;
-	padding-left: 350px;
-}
-
-.image1customer {
-
-  
-  clip-path: polygon(50% 0%, 90% 0, 90% 94%, 84% 100%, 0 100%, 0% 60%, 0 0);
-
-	padding-left: 300px;
-}
-
-.image2customer {
-
-	clip-path: polygon(50% 0%, 90% 0, 90% 94%, 84% 100%, 0 100%, 0% 60%, 0 0);
-	
-
-}
-
-.image3customer {
-
-	clip-path: polygon(50% 0%, 90% 0, 90% 94%, 84% 100%, 0 100%, 0% 60%, 0 0);
-  
-}
-
-.image4customer {
-
-	clip-path: polygon(50% 0%, 90% 0, 90% 94%, 84% 100%, 0 100%, 0% 60%, 0 0);
-
-}
-
-.name1 {
-
-	padding-left: 65px;
-	font-family: sans-serif;
-}
-
-.name2 {
-
-	padding-left: 1%;
-	font-family: sans-serif;
-}
-
-.name3 {
-
-	padding-left: 110px;
-	font-family: sans-serif;
-}
-
-.name4{
-
-	padding-right: 20px;
-	font-family: sans-serif;
-}
-
-.aboutus-section {
-
-	background-image: url("home-01-bg-video2.jpg");
-	background-attachment: fixed;
-	height: 100%;
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.ABOUTUS {
-
-	color: #fff;
-	font-family: monospace;
-	padding-left: 50px;
-	padding-top: 50px;
-}
-
-.aboutus-paragraph {
-
-	color: white;
-	font-family: monospace;
-	padding-left: 250px;
-	padding-top: 250px;
-	display: inline-block;
-}
-
-.aboutext {
-
-	color: white;
-	font-family: monospace;
-	padding-left: 250px;
-
-}
-
-.imageabout span {
-
-	display: inline-block;
-}
-
-.naslovschool {
-
-	color: #2B2A2A;
-	font-family: fantasy;
-	padding-top: 100px;
-	
-
-}
-
-.paragraf-school {
-
-		text-align: center;
-		font-family: Good Sans,Helvetica,Arial,sans-serif;
-		color: gray;
-
-	}
-
-.slika-school {
-
-	padding-top: 50px;
-	clip-path: polygon(50% 0%, 100% 0, 100% 88%, 84% 100%, 0 100%, 0% 60%, 0 0);
-	filter: brightness(50%);
-
-}
-
-.text-school {
-
-	position: absolute;
-
-}
-
-.school-container {
-
-
-  position: relative;
-  text-align: center;
-  color: white;
-
-}
-
-.ipadress {
-
-	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 0.1;
-  font-family: Good Sans,Helvetica,Arial,sans-serif;
-  border: 2px solid white ;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.ddosprotectionnow {
-
-	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 100px;
-  font-family: Good Sans,Helvetica,Arial,sans-serif;
-}
-
-.paragraf-school-slika {
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 150px;
-  font-family: serif;
-
-
+.container {
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    background: black;
+    line-height: 30px;
+    font-weight: lighter;
+    padding: 40px;
+    color: grey;
+    background: cover;
+    margin: 0;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+   
 }
